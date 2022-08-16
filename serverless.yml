@@ -2,10 +2,8 @@ service: basic-lambda-func
 provider:
   name: aws
   runtime: nodejs12.x
-
-# you can overwrite defaults here
- stage: dev
- region: ap-south-1
+  stage: dev
+  region: ap-south-1
 
 functions:
   hello:
